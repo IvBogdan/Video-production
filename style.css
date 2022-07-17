@@ -291,11 +291,9 @@ h1, h2, h3, h4, h5, h6 {
 .paginator__item{
   display: inline-block;
   vertical-align: middle;
-  line-height: 0px;
   width: 32px;
   height: 32px;
   line-height: 32px;
-  
 }
 
 .paginator__display,.paginator__list{
@@ -308,20 +306,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .paginator__link{
-  display: block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
-  
-
 }
 
-.paginator__item-active .paginator__link {
-  background: #FF5500;
-  
+.paginator__item-active.paginator__item {
+  background-color: #FF5500;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
 .about{
